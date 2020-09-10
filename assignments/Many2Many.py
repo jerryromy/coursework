@@ -39,7 +39,7 @@ INSERT INTO Course (title) VALUES ('Python');
 INSERT INTO Course (title) VALUES ('SQL');
 INSERT INTO Course (title) VALUES ('PHP')
 ''')
-
+# assign students and teachers to classes
 cur.executescript('''
 INSERT INTO Member (user_id, course_id, role) VALUES (1, 1, 1);
 INSERT INTO Member (user_id, course_id, role) VALUES (2, 1, 0);
